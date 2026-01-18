@@ -24,16 +24,17 @@ For the complete assembly manual, recommended print settings, and to download th
 
 ## [**🌐 View Official Website & Manual**](https://clutchfire.github.io/firestar/)
 
-> [!IMPORTANT]
-> The official STL files will be available soon on the **Polarstar Airsoft** website. The link above will be updated upon release. Stay tuned to our [Discord community](https://discord.gg/8hraAGcFYY) for the announcement!
-
 ---
 
-## 💬 Community & Support
+## 💬 Community
 Have questions, want to share your build, or suggest an improvement? Join our community!
 
-*   [**Join our Discord**](https://discord.gg/8hraAGcFYY)
-*   [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support%20Clutchfire-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/clutchfire3d)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/8hraAGcFYY)
+
+## ❤️ Support the Mission (Keep the Fire Burning)
+The Firestar is an open-source project. If you find this project valuable, please consider supporting our work.
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support%20Clutchfire-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/clutchfire3d)
 
 ---
 
