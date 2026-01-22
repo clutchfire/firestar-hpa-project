@@ -54,6 +54,45 @@ main > section {
     margin-bottom: 50px;
 }
 
+/* --- Seletor de Idiomas (Language Switcher) --- */
+.language-switcher {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.language-switcher a,
+.language-switcher span {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.language-switcher a {
+    color: var(--medium-gray);
+    border: 1px solid transparent;
+}
+
+.language-switcher a:hover {
+    background-color: var(--light-gray);
+    color: var(--primary-red);
+    text-decoration: none;
+}
+
+.language-switcher span.active {
+    background-color: var(--light-gray);
+    color: var(--dark-gray);
+    font-weight: 700;
+    border: 1px solid var(--border-color);
+    cursor: default;
+}
+
 /* Links e Navegação */
 a { color: var(--link-color); text-decoration: none; }
 a:hover { text-decoration: underline; }
