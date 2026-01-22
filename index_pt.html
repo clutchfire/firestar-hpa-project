@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firestar – Manual de Montagem</title>
+    <!-- SEO: Definição de idiomas e padrão -->
+    <link rel="alternate" hreflang="en" href="index.html" />
+    <link rel="alternate" hreflang="pt-br" href="index_pt.html" />
+    <link rel="alternate" hreflang="x-default" href="index.html" />
+
+    <!-- Link para o novo arquivo de estilos -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Analytics (Substitua por seu ID) -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MMBWE5BMDW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-MMBWE5BMDW');
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="language-switcher">
+            <a href="index.html" title="Switch to English">🇺🇸 English</a>
+            <span class="active">🇧🇷 Português</span>
+        </div>
+        <header>
+            <div class="important">
+                <p><strong>Arquivos STL Oficiais:</strong> Os modelos 3D para a plataforma Firestar estarão disponíveis em breve no site oficial da <strong>Polarstar Airsoft</strong>. Fique ligado em nossa <a href="https://discord.gg/8hraAGcFYY">comunidade no Discord</a> para o anúncio oficial do lançamento!</p>
+            </div>
+            <h1>Firestar – Manual de Montagem e Impressão 🚀</h1>
+            <p>Criado por: <a href="http://bio.clutchfire.works/">@clutchfire</a></p>
+        </header>
+
+        <main>
+            <section id="license">
+                <h2>⚖️ Licença e Termos de Uso</h2>
+                <p>Este projeto está licenciado sob <strong>CC BY-NC-ND 4.0</strong>. <strong>O uso comercial, redistribuição ou venda dos arquivos STL e peças impressas é estritamente proibido.</strong></p>
+            </section>
+
+            <section id="intro">
+                <h2>🚀 Conheça a Firestar</h2>
+                <p><strong>Esqueça as Gearboxes. Abrace a Inovação.</strong></p>
+                <img src="Pages/Images/Firestar.jpg" alt="Firestar">
+                <p>A Firestar foi desenvolvida pela <strong>ClutchFire</strong> em colaboração com a <strong>Polarstar Airsoft</strong>. Projetada do zero para extrair o máximo desempenho das <strong>engines HPA F2™ e Jack™</strong>, esta plataforma elimina a dor de cabeça do alinhamento do nozzle e shimming da gearbox.</p>
+            </section>
+
+            <section id="support">
+                <h2>❤️ Apoie a Missão (Mantenha a Chama Acesa)</h2>
+                <p>A <strong>Firestar</strong> é um projeto open-source. Se você acha este projeto valioso, considere apoiar nosso trabalho.</p>
+                <a href="https://www.buymeacoffee.com/clutchfire" target="_blank" rel="noopener noreferrer">
+                    <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support%20Clutchfire-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee">
+                </a>
+            </section>
+
+            <section id="print-settings">
+                <h2>🛠 Configurações de Impressão Recomendadas</h2>
+                <p>Para garantir a integridade estrutural da sua Firestar, siga estas diretrizes:</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Parâmetro</th>
+                            <th>Configuração Recomendada</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Material</strong></td>
+                            <td><strong>ASA ou ABS</strong> (Necessário para resistência ao impacto e durabilidade)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Contagem de Paredes</strong></td>
+                            <td><strong>4 camadas/perímetros</strong> (Crucial para a força das roscas e insertos)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Preenchimento (Infill)</strong></td>
+                            <td><strong>50% ou mais</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Suporte</strong></td>
+                            <td>Necessário (Suportes "Tree" recomendados para superfícies mais limpas)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Altura de Camada</strong></td>
+                            <td>0.12mm</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="warning">
+                    <p>⚠️ <strong>Aviso:</strong> Não use PLA padrão para peças estruturais, pois pode se tornar quebradiço ou deformar sob calor e estresse mecânico.</p>
+                </div>
+            </section>
+
+            <section id="tools-hardware">
+                <h2>🧰 Pré-requisitos e Lista de Materiais</h2>
+                
+                <h3>📋 Pré-requisitos</h3>
+                <div class="important">
+                    <ul>
+                        <li>Experiência prévia com impressão 3D.</li>
+                        <li>Conhecimento básico de componentes e montagem de airsoft.</li>
+                        <li>Familiaridade com sistemas HPA.</li>
+                    </ul>
+                </div>
+
+                <h3>🧰 Ferramentas Necessárias</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Ferramenta</th>
+                            <th>Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Jogo de Chaves Allen</strong></td>
+                            <td>Chaves métricas (especificamente para parafusos M3).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Ferro de Solda</strong></td>
+                            <td>Essencial para instalar insertos de latão M3.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Lixa/Limas</strong></td>
+                            <td>Para alisar superfícies e ajustar peças.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Micro Retífica</strong></td>
+                            <td>Dremel ou similar para ajustes finos de tolerância.</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>🛒 Lista de Materiais (BOM)</h3>
+                <h4>Componentes Comerciais</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Componente</th>
+                            <th>Especificação / Nota</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Engine HPA</strong></td>
+                            <td>Polarstar F2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Unidade de Hopup</strong></td>
+                            <td>Maxx Model ou Polarstar "Hopup Thing"</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Cano Interno</strong></td>
+                            <td>Cano de precisão de 160mm</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Gatilho</strong></td>
+                            <td>Gatilho ajustável (Blade)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Adaptador de Rosca</strong></td>
+                            <td>12mm para 14mm CCW (para tracer/supressor)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Tubo da Coronha</strong></td>
+                            <td>Tubo de Fibra de Carbono (28mm ID x 30mm OD)</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h4>Ferragens</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Detalhes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Insertos de Latão M3</strong></td>
+                            <td>Tipo Heat-set (inserção a quente)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Parafusos M3</strong></td>
+                            <td>Conjunto de 5mm a 15mm</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Parafuso e Porca M5</strong></td>
+                            <td>1 conjunto</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Molas</strong></td>
+                            <td>Mola do retém do carregador (Mag Catch)</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h4>🖨️ Peças Impressas</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Grupo</th>
+                            <th>Peças</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Receiver e Frente</strong></td>
+                            <td>Lower Receiver, Upper Receiver, Handguard, Outer Barrel</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Controles</strong></td>
+                            <td>Trigger Housing, Fire Selector, Selector Plate, Pistol Grip, Mag Release</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Coronha</strong></td>
+                            <td>Stock Adapter, Stock</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <div class="assembly-intro">
+                <h2>🔩 Guia de Montagem</h2>
+                <!-- Menu de Navegação Rápida -->
+                <nav>
+                    <a href="#step-1">Passo 1</a>
+                    <a href="#step-2">Passo 2</a>
+                    <a href="#step-3">Passo 3</a>
+                    <a href="#step-4">Passo 4</a>
+                    <a href="#step-5">Passo 5</a>
+                    <a href="#step-6">Passo 6</a>
+                </nav>
+            </div>
+
+            <section id="step-1" class="step">
+                <h2>Passo 1: Preparação do Lower Receiver</h2>
+                <h3><strong>Gatilho</strong></h3>
+                <p>Instale a lâmina do gatilho. Note o slot específico para evitar que o seletor gire demais. Fixe com um parafuso M3.</p>
+                <img src="Pages/Images/img1.jpg" alt="Instalação do Gatilho">
+                <h3><strong>Insertos do Pistol Grip</strong></h3>
+                <p>Usando um ferro de solda, instale os insertos de latão M3 nos orifícios de montagem do Pistol Grip.</p>
+                <img src="Pages/Images/img2.jpg" alt="Insertos do Grip">
+                <h3><strong>Pistol Grip</strong></h3>
+                <p>Parafuse o Pistol Grip ao corpo usando parafusos M3.</p>
+                <table class="image-table">
+                    <tr>
+                        <td><img src="Pages/Images/img4.jpg" alt="Vista Montagem Grip 1"></td>
+                        <td><img src="Pages/Images/img5.jpg" alt="Vista Montagem Grip 2"></td>
+                    </tr>
+                </table>
+            </section>
+
+            <section id="step-2" class="step">
+                <h2>Passo 2: Upper Receiver e Handguard</h2>
+                <h3><strong>Insertos</strong></h3>
+                <p>Instale insertos M3 em ambos os lados do Upper Receiver e no Outer Barrel.</p>
+                <img src="Pages/Images/img6.jpg" alt="Insertos Upper">
+                <h3><strong>Ponta (Muzzle)</strong></h3>
+                <p>Rosqueie o adaptador 14mm CCW na ponta do Outer Barrel.</p>
+                <img src="Pages/Images/img7.jpg" alt="Rosca Muzzle">
+                <h3><strong>Alinhamento</strong></h3>
+                <p>Alinhe os furos do Outer Barrel com o Handguard. Preste atenção ao <strong>lado chanfrado</strong>.</p>
+                <table class="image-table">
+                    <tr>
+                        <td><img src="Pages/Images/img8.jpg" alt="Alinhamento Cano"></td>
+                        <td><img src="Pages/Images/img9.jpg" alt="Aperto Parafuso Cano"></td>
+                    </tr>
+                </table>
+                <h3><strong>Junção</strong></h3>
+                <p>Deslize o Upper para dentro do Handguard e fixe ambos os lados com parafusos M3.</p>
+                <table class="image-table">
+                    <tr>
+                        <td><img src="Pages/Images/img11.jpg" alt="Encaixe Upper Handguard"></td>
+                        <td><img src="Pages/Images/img10.jpg" alt="Alinhamento Furos Upper Handguard"></td>
+                    </tr>
+                </table>
+                <h3><strong>Hopup</strong></h3>
+                <p>Deslize o Hopup montado e o cano interno para dentro do Upper até atingir o limitador interno.</p>
+                <table class="image-table">
+                    <tr>
+                        <td><img src="Pages/Images/img12.jpg" alt="Polarstar Hopup Thing"></td>
+                        <td><img src="Pages/Images/img12_1.jpg" alt="Vista Maxx Model"></td>
+                    </tr>
+                </table>
+                <img src="Pages/Images/img13.jpg" alt="Instalação Hopup">
+            </section>
+
+            <section id="step-3" class="step">
+                <h2>Passo 3: Trigger Housing e HPA</h2>
+                <h3><strong>Placa de Gatilho (Trigger Board)</strong></h3>
+                <p>Fixe a trigger board da F2 no lado esquerdo do Housing usando o parafuso pequeno original.</p>
+                <table class="image-table">
+                    <tr>
+                        <td><img src="Pages/Images/img14.jpg" alt="Housing Gatilho Esq"></td>
+                        <td><img src="Pages/Images/img15.jpg" alt="Placa"></td>
+                    </tr>
+                </table>
+                <h3><strong>Montagem</strong></h3>
+                <p>Coloque a lâmina do gatilho em seu alojamento, feche com o lado direito e fixe com parafusos M3.</p>
+                <table class="image-table">
+                    <tr>
+                        <td><img src="Pages/Images/img16.jpg" alt="Lâmina do Gatilho"></td>
+                        <td><img src="Pages/Images/img17.jpg" alt="Fechamento Housing"></td>
+                    </tr>
+                </table>
+                <h3><strong>Seletor</strong></h3>
+                <p>Encaixe a Selector Plate no lugar.</p>
+                <img src="Pages/Images/img18.jpg" alt="Placa do Seletor">
+            </section>
+
+            <section id="step-4" class="step">
+                <h2>Passo 4: Stock Adapter</h2>
+                <h3><strong>Instalação da Porca</strong></h3>
+                <p>Coloque a porca M5 dentro do slot específico no Lower Receiver.</p>
+                <img src="Pages/Images/img19.jpg" alt="Porca M5">
+                <h3><strong>Fixação</strong></h3>
+                <p>Instale o Stock Adapter antes do sistema HPA e fixe-o com o parafuso M5.</p>
+                <img src="Pages/Images/img20.jpg" alt="Montagem Adaptador">
+            </section>
+
+            <section id="step-5" class="step">
+                <h2>Passo 5: Montagem Final do Sistema</h2>
+                <h3><strong>Fiação</strong></h3>
+                <p>Passe os fios da FCU pelo Stock Adapter e a linha de ar pelo orifício do Pistol Grip.</p>
+                <img src="Pages/Images/img21.jpg" alt="Rota da Fiação">
+                <h3><strong>Caixa do Gatilho</strong></h3>
+                <p>Deslize o Trigger Housing para dentro do Lower e trave-o com o <strong>Pino Inferior</strong>.</p>
+                <img src="Pages/Images/img22.jpg" alt="Instalação Caixa Gatilho">
+                <h3><strong>Engine</strong></h3>
+                <p>Deslize a engine F2 para dentro do Upper até que ela se encaixe no Hopup.</p>
+                <img src="Pages/Images/img23.jpg" alt="Deslize da Engine">
+                <h3><strong>Trava</strong></h3>
+                <p>Instale a <strong>Trava da F2</strong> para evitar que a engine se mova durante os disparos.</p>
+                <img src="Pages/Images/img24.jpg" alt="Trava da Engine">
+                <h3><strong>Fechamento</strong></h3>
+                <p>Junte os receivers Upper e Lower e trave com o pino frontal.</p>
+                <img src="Pages/Images/img25.jpg" alt="Pinos do Corpo">
+                <h3><strong>Retém do Carregador</strong></h3>
+                <p>Instale o Mag Release impresso (ou aftermarket de M4) com a mola. Garanta um movimento suave.</p>
+            </section>
+
+            <section id="step-6" class="step">
+                <h2>Passo 6: Stock</h2>
+                <h3><strong>Tubo de Carbono</strong></h3>
+                <p>Corte o tubo de fibra de carbono no comprimento desejado e fure os orifícios de montagem.</p>
+                <h3><strong>Stock</strong></h3>
+                <p>Instale insertos M3 na peça impressa do Stock e parafuse-a ao tubo.</p>
+                <img src="Pages/Images/img26.jpg" alt="Montagem Coronha">
+                <h3><strong>Finalização</strong></h3>
+                <p>Conecte a FCU e a bateria, acomode os fios no tubo e deslize-o sobre o Stock Adapter.</p>
+                <table class="image-table">
+                    <tr>
+                        <td><img src="Pages/Images/img27.jpg" alt="Conexão Final Fiação"></td>
+                        <td><img src="Pages/Images/img28.jpg" alt="Encaixe Final Coronha"></td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+
+        <footer>
+            <h2>🔥 Montagem Completa!</h2>
+            <p>Compartilhe sua montagem da Firestar no Instagram e marque <strong>@clutchfire</strong>. Adoraríamos ver!</p>
+
+                <a href="https://discord.gg/8hraAGcFYY">Entre no nosso Discord</a> | 
+                <a href="https://www.buymeacoffee.com/clutchfire">Apoie o Projeto</a>
+            </p>
+            <img src="Pages/Images/img29.jpg" alt="Build Final">
+            <p><a href="#">Voltar ao Topo</a></p>
+        </footer>
+    </div>
+</body>
+</html>
